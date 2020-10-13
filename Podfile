@@ -1,10 +1,8 @@
 platform:ios,'8.0'
-#
+
+
 source 'https://github.com/CocoaPods/Specs.git'
-plugin 'cocoapods-repo-svn', :sources => [
-#'http://200.200.200.40/svn/repositories/ios/code/trunk/HETSDKs/HETSpecs'  //老版本的公共模块源
-'http://200.200.200.40/svn/repositories/ios/code/trunk/HETPublicModuleSDK/HETModuleSpecs'
-]
+
 
 
 target 'AIFMapLib'do

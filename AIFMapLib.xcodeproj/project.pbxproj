@@ -499,17 +499,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AIFMapLib/Pods-AIFMapLib-resources.sh",
-				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIFMapLib/Pods-AIFMapLib-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIFMapLib/Pods-AIFMapLib-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIFMapLib/Pods-AIFMapLib-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIFMapLib/Pods-AIFMapLib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EB2503B6A4E2B78BD36A5C8 /* [CP] Check Pods Manifest.lock */ = {

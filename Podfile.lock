@@ -27,7 +27,7 @@ DEPENDENCIES:
   - YTKKeyValueStore (= 0.1.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AMap3DMap-NO-IDFA
     - AMapFoundation-NO-IDFA
     - AMapLocation-NO-IDFA
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   TMUtils: 8af8e4695b6e4086d0545ecd7cd025556515ab42
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
 
-PODFILE CHECKSUM: 562a14b0738a34a163d23e20b637580da2626087
+PODFILE CHECKSUM: 671fad9e308eecf1c764e7a2568f1b76c949cf99
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
